@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 100vh; /* Para centrar verticalmente en toda la ventana */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555555;
+}
+
+/* Estilos para el enlace de WhatsApp */
+.whatsapp-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-bubble img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer p {
+    margin: 0;
+}
